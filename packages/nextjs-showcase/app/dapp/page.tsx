@@ -8,7 +8,7 @@ import { getWalletProvider } from '@/utils/wallet';
 import { CONTRACT_ABI } from '@/utils/contractABI';
 import Link from 'next/link';
 
-const CONTRACT_ADDRESS = process.env.NEXT_PUBLIC_CONTRACT_ADDRESS || '';
+const CONTRACT_ADDRESS = '0xe53d5593373D0E3e3970B96d7aa52f9417C4e70e';
 
 // FHEVM v0.9 配置（7个必需参数）
 const FHEVM_CONFIG = {
@@ -240,7 +240,6 @@ export default function DAppPage() {
       }
       
       setError(e.message || '解密失败，请稍后重试');
-    }
     } finally {
       setIsDecrypting(false);
     }

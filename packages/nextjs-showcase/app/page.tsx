@@ -120,7 +120,7 @@ export default function Home() {
           <p className="mb-2">Powered by <span className="font-semibold">FHEVM v0.9</span> | Built on <span className="font-semibold">Sepolia Testnet</span></p>
           <p className="text-sm">
             Contract: <code className="bg-gray-200 dark:bg-gray-700 px-2 py-1 rounded text-xs">
-              {process.env.NEXT_PUBLIC_CONTRACT_ADDRESS?.slice(0, 10)}...
+              0xe53d5593...70e
             </code>
           </p>
         </footer>
