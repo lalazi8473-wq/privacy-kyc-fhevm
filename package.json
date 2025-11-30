@@ -1,0 +1,25 @@
+{
+  "name": "privacy-kyc-fhevm",
+  "version": "1.0.0",
+  "description": "Privacy-Preserving KYC Verification Platform powered by FHEVM",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "pnpm --filter nextjs-showcase dev",
+    "build": "pnpm --filter nextjs-showcase build",
+    "hardhat:compile": "pnpm --filter hardhat compile",
+    "hardhat:test": "pnpm --filter hardhat test",
+    "hardhat:deploy": "pnpm --filter hardhat deploy"
+  },
+  "keywords": [
+    "fhevm",
+    "kyc",
+    "privacy",
+    "zama"
+  ],
+  "author": "",
+  "license": "MIT"
+}
+
